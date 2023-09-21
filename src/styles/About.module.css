@@ -1,0 +1,35 @@
+.about::after {
+  content: "";
+  background-image: url("../images/About/about.jpg");
+  width: 514px;
+  height: 640px;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.about::before {
+  content: "";
+  background-image: url("../images/About/about2.jpg");
+  width: 336px;
+  height: 419px;
+  right: -300px;
+  bottom: -100px;
+  position: absolute;
+  z-index: -2;
+}
+
+.about {
+  position: relative;
+  display: flex;
+}
+
+.content {
+  width: 533px;
+}
+
+.content p {
+  line-height: 160%;
+  font-size: 20px;
+  font-weight: 400;
+}

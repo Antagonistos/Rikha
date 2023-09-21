@@ -1,0 +1,41 @@
+.wrapper {
+  margin-top: 280px;
+  margin-bottom: 280px;
+}
+
+.title h1 span {
+  color: #e07153;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageContent {
+  display: grid;
+  grid-template-areas:
+    "A A A    C C C    D D D    K K K"
+    "A A A    C C C    D D D    K K K"
+    "B B B    B B B    E E E    K K K"
+    "B B B    B B B    E E E    K K K";
+}
+
+.box1 {
+  grid-area: A;
+}
+.box2 {
+  grid-area: C;
+}
+.box3 {
+  grid-area: D;
+}
+.box4 {
+  grid-area: B;
+}
+.box5 {
+  grid-area: E;
+}
+.box6 {
+  grid-area: K;
+}

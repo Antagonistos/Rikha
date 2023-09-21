@@ -1,0 +1,15 @@
+.controller {
+  display: flex;
+  align-self: center;
+  border: 1px solid black;
+  justify-content: space-around;
+  font-size: 24px;
+  width: 135px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  color: black;
+}
+
+.controller button {
+  color: #e07153;
+}

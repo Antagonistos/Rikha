@@ -1,0 +1,50 @@
+.road {
+  display: flex;
+}
+
+.road p {
+  color: black;
+}
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter button {
+  border: 1px solid #e8e8e8;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  transition: 0.2s all;
+  margin-right: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.filter button:hover {
+  border-color: #e07153;
+  transition: 0.2s all;
+  border-radius: 10px;
+}
+
+.filter button img {
+  width: 24px;
+  margin-right: 5px;
+}
+
+.page {
+  margin-bottom: 200px;
+}
+
+.control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort select {
+  padding: 15px 20px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+}

@@ -1,0 +1,58 @@
+.wrapper {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.text {
+  color: #b7b7b7;
+  font-size: 12px;
+  text-align: end;
+}
+.phone {
+  color: black;
+  font-size: 16px;
+}
+.phone::before {
+  content: url("../images/headerNav/phone.svg");
+  padding-right: 10px;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+}
+.item {
+  display: block;
+  color: black;
+}
+
+.btns {
+  display: flex;
+}
+
+.btn:last-child {
+  margin-left: 20px;
+}
+
+.btn {
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  margin-left: 10px;
+  color: #000;
+}
+
+.cartCout {
+  background: #e07153;
+  border-radius: 50%;
+  color: #fff;
+  padding: 4px;
+  font-size: 12px;
+  right: 8px;
+  top: 8px;
+  position: absolute;
+}

@@ -1,0 +1,16 @@
+.button {
+  width: 188px;
+  height: 44px;
+  background: url("../../images/btn.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button img {
+  width: auto;
+}

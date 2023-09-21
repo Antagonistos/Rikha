@@ -1,0 +1,96 @@
+.card {
+  width: 350px;
+  height: 479px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  z-index: 10;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.info {
+  left: 8px;
+  top: 12px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.info .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  text-align: center;
+  font-weight: 700;
+  color: black;
+}
+
+.info img {
+  width: 32px;
+}
+
+.backgroud {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.status {
+  position: absolute;
+  right: -16px;
+  top: 16px;
+  width: 72px;
+  height: 72px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.body {
+  font-weight: 500;
+}
+
+.prices {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.price {
+  font-weight: 800;
+  font-size: 32px;
+}
+.pastPrice {
+  color: #b7b7b7;
+  text-decoration: line-through;
+}
+
+.top {
+  background: #a1dcdc;
+}
+
+.new {
+  background: #62e2b4;
+}
+.sale {
+  background: #e07153;
+}
+.content {
+  padding: 24px;
+}
