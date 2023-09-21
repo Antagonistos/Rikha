@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Rikha/static/css/main.7d1a6265.css",
+    "main.css": "/Rikha/static/css/main.033f6d93.css",
     "main.js": "/Rikha/static/js/main.1c4a8ed6.js",
     "static/media/TTInterfaces-Bold.ttf": "/Rikha/static/media/TTInterfaces-Bold.fdc749f03dc91b7a725b.ttf",
     "static/media/about.jpg": "/Rikha/static/media/about.02b36cc95d0560380fc9.jpg",
@@ -55,11 +55,11 @@
     "static/media/arrowLeft.svg": "/Rikha/static/media/arrowLeft.295efeeffbeb092579f2384c3665cc25.svg",
     "index.html": "/Rikha/index.html",
     "static/media/profile.svg": "/Rikha/static/media/profile.80665ecf0b46920713a920ebad076d71.svg",
-    "main.7d1a6265.css.map": "/Rikha/static/css/main.7d1a6265.css.map",
+    "main.033f6d93.css.map": "/Rikha/static/css/main.033f6d93.css.map",
     "main.1c4a8ed6.js.map": "/Rikha/static/js/main.1c4a8ed6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d1a6265.css",
+    "static/css/main.033f6d93.css",
     "static/js/main.1c4a8ed6.js"
   ]
 }
